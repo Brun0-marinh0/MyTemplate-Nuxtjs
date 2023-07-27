@@ -1,0 +1,15 @@
+# version: '3.8'
+# services:
+#   nome:
+#     container_name: MyLayout
+#     build: .
+#     restart: always
+#     command: "yarn prod"
+#     volumes:
+#       - vol_nome:/usr/api
+#     ports:
+#       - 9801:3000
+
+# volumes:
+#  vol_nome:
+#   driver: local
