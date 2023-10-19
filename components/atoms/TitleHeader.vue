@@ -3,7 +3,7 @@
         <div class="containerImg">
             <img src="@/static/icon.png" alt="">
         </div>
-        <h3>MyLayout</h3>
+        <h3>MyTemplate</h3>
     </div>
 </template>
 

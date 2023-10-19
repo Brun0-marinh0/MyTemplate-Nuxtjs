@@ -1,14 +1,14 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'MyLayout',
+    title: 'MyTemplate',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon/close.svg' }],
+    link: [{ rel: 'icon', type: 'image/png', href: '/icon.png' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -52,15 +52,15 @@ export default {
   pwa: {
     meta: {
       theme_color: '#262130',
-      name: 'bugas',
-      author: 'Bruno&Paula'
+      name: 'MyTemplate',
+      author: 'Bruno Caldas Marinho'
     },
     manifest: {
       lang: 'pt-br',
     },
     icon:{
-      source: '/icon/close.svg',
-      filename: 'close.svg'
+      source: '/icon/icon.png',
+      filename: 'icon.png'
     },
   },
 
