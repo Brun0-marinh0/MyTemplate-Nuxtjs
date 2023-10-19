@@ -13,17 +13,13 @@ export default Vue.extend({
     data(){
         return{
             routers:[
-                {name: 'Sobre', link: 'about'},
-                {name: 'Histórico', link: 'historic'}
+                {name: 'link teste de error', link: 'error'}
             ]
         }
     },
     methods:{
         getLink(link: String){
-            if(link === 'about'){
-                return link
-            }
-            if(link === 'historic'){
+            if(link === 'error'){
                 return link
             }
         }
@@ -36,9 +32,10 @@ export default Vue.extend({
         display: flex;
         gap: 0.5rem;
         align-items: center;
+        height: 4rem;
     }
     a{
-        border: 1px solid var(--colorButton);
-        color: var(--labelInt);
+        border: 1px solid var(--bgMain);
+        color: var(--bgMain);
     }
 </style>

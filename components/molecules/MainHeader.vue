@@ -1,7 +1,8 @@
 <template>
-    <div>
-        <Nuxt/>
-    </div>
+    <header>
+        <TitleHeader />
+        <RouterBtn />
+    </header>
 </template>
 
 <script lang="ts">
@@ -11,7 +12,10 @@ export default Vue.extend({
     
 })
 </script>
-
 <style lang="scss" scoped>
-
+    header{
+        width: 100%;
+        display: grid;
+    }
+    
 </style>

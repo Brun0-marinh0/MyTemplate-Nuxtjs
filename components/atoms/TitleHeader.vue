@@ -1,9 +1,9 @@
 <template>
-    <div class="titleNavbar" @click="home">
+    <div class="titleHeader" @click="home">
         <div class="containerImg">
-            <img src="@/static/icon/close.svg" alt="">
+            <img src="@/static/icon.png" alt="">
         </div>
-        <h2>nome</h2>
+        <h3>MyLayout</h3>
     </div>
 </template>
 
@@ -20,13 +20,15 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-    .titleNavbar{
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-        min-height: 2rem;
+    .titleHeader{
+        background:var(--bgMain);
+        padding: 1rem;
+        border-radius: 1rem;
+        height: 8rem;
+        
         .containerImg{
-            min-width: 2rem;
+            min-width: 1rem;
+            width: 4rem;
             display: flex;
             align-items: center;
             img{
