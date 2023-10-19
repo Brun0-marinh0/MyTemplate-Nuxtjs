@@ -1,7 +1,8 @@
 {
-  "name": "report",
+  "name": "my-layout-nuxt",
   "version": "1.0.0",
   "private": true,
+  "author": "Bruno Caldas Marinho",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
